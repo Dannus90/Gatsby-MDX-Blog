@@ -4,9 +4,11 @@ frontmatter:
 
 import { Link } from 'gatsby'
 import { FiInfo } from 'react-icons/fi'
-import { Counter, LikeButton } from '../components/Complete/index.js'
+import { Counter, LikeButton, RegVideo, Video } from '../components/Complete/index.js'
+
 
 <section className="mdx-page">
+
 
 ## My first mdx file
 
@@ -60,6 +62,13 @@ const LikeButton = () => {
 
 <LikeButton />
 
+<h2>
+video components
+</h2>
+<RegVideo />
+<Video />
+<h2>Regular heading</h2>
+<h2 title="true">Title Heading</h2>
 <Link to="/posts" className="btn center-btn">
   All Posts
 </Link>
